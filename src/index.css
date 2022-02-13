@@ -11,3 +11,48 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.App{
+  width: 70vw;
+  margin: 0 auto;
+}
+
+.navbar{
+  padding: 20px;
+}
+Link, a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.user-list, .post-list, .post-detail{
+  padding: 20px;
+}
+
+.post-list > div{
+  margin-bottom: 10px;
+}
+
+.post-detail >div {
+  margin-bottom: 15px;
+}
+
+.post-detail > button{
+  margin-right: 15px;
+  background-color: rgb(216, 196, 201);
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+}
+
+.post-detail > button:hover{
+  background-color: rgb(184, 158, 118);
+}
+.comment > div > h5{
+  margin-bottom: 5px;
+}
+.comment > div > p {
+  background-color: rgb(219, 235, 235);
+  border-radius: 5px;
+  padding: 5px;
+  margin-top: 2px;
+}
